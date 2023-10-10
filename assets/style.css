@@ -354,3 +354,8 @@ input[type="submit"] {
 	}
 }
 
+.nav-pills .nav-link:hover{
+	background: #BEB45A;
+	cursor: pointer;
+}
+
