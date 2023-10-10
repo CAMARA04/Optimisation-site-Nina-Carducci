@@ -59,6 +59,7 @@ body {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+	
 }
 
 .picture {
@@ -70,6 +71,13 @@ body {
 .picture img {
 	width: 100%;
 
+}
+/* ******tritre h1*/
+.Titre-principale{
+	text-align: center;
+	padding: 20px;
+	background-color: #F6D2B8;
+	margin-bottom: 0;
 }
 #about-me {
 	flex: 2
@@ -147,6 +155,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.2em;
 
 }
 .quote__author {
