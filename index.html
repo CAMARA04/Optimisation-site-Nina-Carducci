@@ -43,7 +43,9 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img src="assets/images/instagram.png" alt=""
+              ><img
+                src="assets/images/instagram.png"
+                alt="lien icone pour se rendre sur l'instagram de Nina CARDUCCI"
             /></a>
           </li>
         </ul>
@@ -138,11 +140,11 @@
 
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
-        <h6 class="about-me__introduction">
+        <h3 class="about-me__introduction">
           Devenir photographe était pour moi une évidence. Comme si j’y étais
           prédestiné. Saisir un moment, une émotion, une situation, un endroit,
           une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h6>
+        </h3>
         <p>
           Nous passons notre vie à chercher le bonheur, et lorsque nous y
           touchons, nous n’avons qu’une envie : le <strong>figer</strong> au
@@ -296,22 +298,38 @@
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
           <form action="" method="post">
-            <label>Nom</label>
-            <input type="text" name="nom" id="nom" />
-            <label>Email</label>
-            <input type="email" name="email" id="email" />
-            <label>Message</label>
+            <label for="nom">Nom</label>
+            <input
+              type="text"
+              name="nom"
+              required
+              id="nom"
+              placeholder="Rentrez votre nom"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              required
+              id="email"
+              placeholder="Rentrez votre e-mail"
+            />
+            <label for="message">Message</label>
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
+              placeholder="Votre texte ici"
             ></textarea>
             <input type="submit" value="Envoyer" />
           </form>
         </div>
         <div class="picture right">
-          <img src="./assets/images/camera.png" />
+          <img
+            src="./assets/images/camera.png"
+            alt="photo gros plan d'un ancien appareil photo sur fond noir"
+          />
         </div>
       </div>
     </div>

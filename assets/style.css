@@ -92,6 +92,9 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	line-height: 1.2;
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
 }
 #about-me p {
 	width: 80%;
@@ -109,9 +112,10 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	font-weight: bold;
 }
 .nav-pills .nav-link {
 	color: #000
@@ -264,7 +268,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -367,4 +371,6 @@ input[type="submit"] {
 	background: #BEB45A;
 	cursor: pointer;
 }
+
+
 
